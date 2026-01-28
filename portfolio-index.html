@@ -1,0 +1,329 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Mathew Garofalo</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<style>
+		/* 1. Target all images in the Professional History grid */
+		.features article .image img {
+			transition: all 0.3s ease-in-out;
+			filter: grayscale(100%) contrast(1.1);
+			/* B&W by default */
+		}
+
+		/* 2. When you hover over the CARD, bring the image to color */
+		.features article:hover .image img {
+			filter: none;
+			/* Full color on hover */
+			transform: scale(1.05);
+			/* Optional: slight zoom for effect */
+		}
+	</style>
+</head>
+
+<body class="is-preload">
+
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<header id="header" class="alt">
+			<h1><a href="index.html">Mathew Garofalo</a></h1>
+			<nav>
+				<a href="#menu">Menu</a>
+			</nav>
+		</header>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<div class="inner">
+				<h2>Menu</h2>
+				<ul class="links">
+					<li><a href="#banner">Home</a></li>
+					<li><a href="#projects">Lab &amp; Infrastructure</a></li>
+					<li><a href="#four">Experience</a></li>
+					<li><a href="resume.pdf" target="_blank">Resume</a></li>
+				</ul>
+				<a href="#" class="close">Close</a>
+			</div>
+		</nav>
+
+		<!-- Banner -->
+		<section id="banner">
+			<div class="inner" style="padding-left: 50px;">
+
+				<div class="logo"
+					style="width: 120px; height:120px; border-radius: 50%; box-shadow: 0 4px 10px rgba(0,0,0,0.6);">
+					<img src="images/linkedin.jpeg" alt=""
+						style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%; display: block;" />
+				</div>
+				<h2>Mathew Garofalo</h2>
+				<p>Systems Administration &amp; Operations | CompTIA A+ Certified and CCNA Trainee | 10+ Years of
+					Project
+					Management and Business Operations</p>
+			</div>
+		</section>
+
+		<!-- Wrapper -->
+		<section id="wrapper">
+
+			<!-- One -->
+			<section id="projects" class="wrapper spotlight style1">
+				<div class="inner">
+					<div class="image"
+						style="border-radius: 12px; width: auto; background: none; cursor: default; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.6);">
+						<img src="images/proxmox_dash.png" alt="Home Lab Topology"
+							style="border-radius: 0; width: 100%; object-fit: contain; display: block;" />
+					</div>
+					<div class="content">
+						<h2 class="major">Infrastructure & Home Lab</h2>
+						<p><strong>Environment:</strong> Proxmox VE (Type-1 Hypervisor), Linux (Fedora, Ubuntu Servers),
+							Windows 11
+							Enterprise.<br>
+							<strong>Network:</strong> VLAN segmentation, DNS/DHCP reservations for servers and static
+							nodes, Nginx, Tailscale
+							VPN.<br>
+							<strong>Objective:</strong> I built this lab to build and break things safely. It simulates
+							a live enterprise environment so I can test and experiment with VLAN trunking, firewall
+							rules, and failure states without risking my personal data.
+						</p>
+						<a href="https://github.com/Matgarofalo/homelab-infrastructure" target="_blank"
+							class="special">View
+							Config on
+							GitHub</a>
+					</div>
+			</section>
+
+			<!-- Two -->
+			<section id="tools" class="wrapper alt spotlight style2">
+				<div class="inner">
+					<div class="image"
+						style="border-radius: 12px; width: auto; background: none; cursor: default; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.6);">
+						<img src="images/osTicket.png" alt="Scripting Demo"
+							style="border-radius: 0; width: 100%; object-fit: contain; display: block;" />
+					</div>
+					<div class="content">
+						<h2 class="major">Tools, Scripting & Deployments</h2>
+						<p>
+							<strong>Enterprise Ticketing (osTicket):</strong> Deployed a self-hosted mat's
+							help desk &trade; on an Ubuntu Server VM via a LAMP stack with a dual objective: to
+							familiarize myself with enterprise ticketing workflows and to force strict documentation
+							habits on myself. I utilize this system as a live home lab log- generating timestamped
+							tickets for every network change and configuration update to create a permanent digital
+							trail of my home infrastructure.
+							<br><br>
+							<strong>Windows (PowerShell):</strong> Developed a diagnostic tool to automate system health
+							checks, event log auditing, and resource monitoring for Windows 11 environments.
+							<br><br>
+							<strong>Linux (Bash):</strong> Created a deployment script for Ubuntu Servers to
+							auto-provision Nginx, configure firewalls (UFW), and set up reverse proxy routing.
+						</p>
+						<a href="https://github.com/Matgarofalo/lab-tools-scripts" target="_blank" class="special">View
+							Scripts</a>
+					</div>
+				</div>
+			</section>
+
+			<!-- Three -->
+			<section id="three" class="wrapper spotlight style2">
+				<div class="inner">
+					<div class="image"
+						style="background: none; border: 0; display: flex; align-items: center; justify-content: center;">
+						<img src="images/A+-png.png" alt="CompTIA A+"
+							style="width: 200px; height: 200px; object-fit: contain; border-radius: 50%; box-shadow: 0 4px 10px rgba(0,0,0,0.6);" />
+					</div>
+
+					<div class="content">
+						<h2 class="major">Credentials & Methodology</h2>
+						<p>
+							<strong>CompTIA A+ Certified</strong> (Jan 2026)<br>
+							<em>Gained a broad base of experience with hardware components, virtualization, TCP/IP
+								networking,
+								security protocols, and operational procedures (Core 1 & 2).</em>
+						</p>
+						<p>
+							<strong>Cisco Certified Network Associate (CCNA)</strong> (In Progress)<br>
+							<em>Active study focused on packet-level analysis, OSPF routing, and VLAN architecture using
+								Packet Tracer and physical switching.</em>
+						</p>
+						<p>
+							<strong>Practical Application</strong><br>
+							<em>The A+ certification gave me the foundational knowledge; the Lab gave me the hands-on
+								experience to learn the application of that knowledge. I focus on "Proof of Concept"
+								learning by building (and breaking) live servers and networks to ensure my knowledge
+								holds up in a professional environment.</em>
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="four" class="wrapper alt style1">
+				<div class="inner">
+					<h2 class="major">Professional History</h2>
+					<p>Operational leader with 10+ years of experience. I specialize in identifying and finding
+						solutions to problems, increasing efficiency, and creating/maintaining system reliability.</p>
+
+					<section class="features">
+						<article>
+							<a href="https://www.instagram.com/therustynailcarpentry/" target="_blank" class="image"
+								style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.6); margin-bottom: 20px; background: #2e3141; display: flex; align-items: center; justify-content: center; border-bottom: none;">
+								<img src="images/RNC.jpg" alt="Historical Restoration"
+									style="width: 100%; height: 250px; object-fit: contain; padding: 10px; border-radius: 12px; display: block;" />
+							</a>
+							<h3 class="major">Owner & Project Manager</h3>
+							<p><strong><a href="https://www.instagram.com/therustynailcarpentry/" target="_blank">The
+										Rusty Nail Carpentry</a> (2019 - Present)</strong><br>
+								I oversee and facilitate renovations and historical restoration including a 12-month
+								contract with the
+								<strong><a href="https://www.strawberybanke.org/" target="_blank">Strawbery Banke
+										Museum</a></strong>.
+								I navigate the strict parameters of New England historical preservation, managing
+								budgets, subcontractors, and municipal inspections to ensure quality and compliance.
+								<br><br>
+								My scope of work extends to fine finish carpentry and custom fabrication as well.
+								Beyond structural renovations, I design and build furniture, custom cabinetry,
+								and detailed millwork.
+							</p>
+						</article>
+
+						<article>
+							<a href="https://www.localkennebunk.com" target="_blank" class="image"
+								style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.6); margin-bottom: 20px; background: #2e3141; display: flex; align-items: center; justify-content: center; border-bottom: none;">
+								<img src="images/elective.png" alt="Operations Management"
+									style="width: 100%; height: 250px; object-fit: contain; padding: 10px; border-radius: 12px; display: block;" />
+							</a>
+
+							<h3 class="major">Partner & Operations Manager</h3>
+
+							<p><strong><a href="https://www.localkennebunk.com" target="_blank">50 Local</a> / <a
+										href="https://www.ticketleap.events/events/theelective" target="_blank">The
+										Elective</a> (2017 - Present)</strong><br>
+
+								Co-founded <strong>The Elective</strong> and directed operations at <strong>50
+									Local</strong>.
+								Led product development for a
+								<strong><a
+										href="https://www.forbes.com/health/cbd/best-cbd-drinks/#best-cbd-drinks-award-2023-shimmerwood-full-spectrum-shimmer-seltzer"
+										target="_blank">Forbes-recognized</a></strong>
+								flavor collaboration with <strong><a
+										href="https://shimmerwood.com/blogs/news/shimmerwood-beverages-shimmer-seltzer-named-best-cbd-drink-of-2023-by-forbes-health?srsltid=AfmBOoph_JxCCmmvk10842A7wvyNxr4DqEsdbB0rg2MJoSbBdZMZrHSy"
+										target="_blank">Shimmerwood Beverages</a></strong> in addition to curating a
+								monthly cocktail workshop series for 7 years.
+								<br><br>
+								I developed the material for over 15 unique classes—covering topics
+								like <em>Prohibition</em>, <em>Tequila + Mezcal</em>, and <em>Bitters
+									Making</em>—growing the program from small private sessions into sold-out public
+								events with 25+ seats.
+								<br><br>
+								I also served as the primary technical troubleshooting specialist for POS migrations,
+								network troubleshooting, and inventory system management.
+							</p>
+						</article>
+
+						<article>
+							<a href="https://www.greatschools.org/virginia/dillwyn/3162-The-Discovery-School-Of-Virginia/"
+								target="_blank" class="image"
+								style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.6); margin-bottom: 20px; display: block; border-bottom: none;">
+								<img src="images/discovery-school.jpeg" alt="Crisis Management"
+									style="width: 100%; height: 250px; object-fit: cover; border-radius: 12px; display: block;" />
+							</a>
+							<h3 class="major">Senior Supervisor</h3>
+							<p><strong><a
+										href="https://www.greatschools.org/virginia/dillwyn/3162-The-Discovery-School-Of-Virginia/"
+										target="_blank">Discovery School of VA</a> (2013 - 2016)</strong><br>
+								Provided group leadership and counseling to at-risk youth (12-18) in an
+								outdoor boarding environment, coordinating campsite development, 10-day group hikes in
+								the Appalachian Mountains, and group therapy to address issues like drug use and
+								violence.
+								<br><br>
+								Maintained campsite safety in a high-risk environment with an 85% staff dropout rate.
+								Enforced strict adherence to state regulatory documentation and compliance protocols.
+							</p>
+						</article>
+
+						<article>
+							<a href="https://www.instagram.com/gustoaustin/" target="_blank" class="image"
+								style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.6); margin-bottom: 20px; background: #2e3141; display: flex; align-items: center; justify-content: center; border-bottom: none;">
+								<img src="images/lasombra.jpg" alt="System Config"
+									style="width: 100%; height: 250px; object-fit: contain; padding: 10px; border-radius: 12px; display: block;" />
+							</a>
+							<h3 class="major">General Manager</h3>
+							<p><strong><a href="https://www.instagram.com/gustoaustin/" target="_blank">La Sombra /
+										Gusto</a> (2009 - 2012)</strong><br>
+								I joined the team at age 20 and moved up to General Manager, serving as the
+								owner's direct operational partner. Together, we executed an intense, three-week
+								renovation and total rebrand—flipping the venue from a Latin bar to an upscale Italian
+								eatery.
+								<br><br>
+								I also built the operational infrastructure for the new concept and configured a new
+								Aloha POS deployment from scratch, migrated a staff of 30+ to a
+								more modern scheduling platform, and developed an easily editable/adjustable inventory
+								system.
+							</p>
+						</article>
+					</section>
+				</div>
+			</section>
+
+			<!-- Footer -->
+			<section id="footer"
+				style="background-image: linear-gradient(to top, rgba(38, 50, 56, 0.9), rgba(38, 50, 56, 0.9)), url('images/mountains.png'); background-size: cover; background-position: center;">
+				<div class="inner">
+					<h2 class="major">Contact & Profiles</h2>
+					<ul class="contact">
+						<li class="icon solid fa-home">
+							Portland, ME
+						</li>
+
+						<li class="icon solid fa-phone">
+							<a href="tel:+15125528024">(512) 552-8024</a>
+						</li>
+
+						<li class="icon solid fa-envelope">
+							<a href="mailto:mathew.garofalo@gmail.com">mathew.garofalo@gmail.com</a>
+						</li>
+
+						<li class="icon solid fa-file-pdf">
+							<a href="resume.pdf" target="_blank"> Resume</a>
+						</li>
+
+						<li class="icon brands fa-linkedin">
+							<a href="https://www.linkedin.com/in/mathew-garofalo/" target="_blank">LinkedIn</a>
+						</li>
+
+						<li class="icon brands fa-github">
+							<a href="https://github.com/Matgarofalo" target="_blank">GitHub</a>
+						</li>
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy; Mathew Garofalo. All rights reserved.</li>
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</section>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
